@@ -1,0 +1,31 @@
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/F"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/G"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/login_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="login my account"
+            android:onClick="goToLoginPageClicked" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Vault Account"
+        android:onClick="CreateVaultAccountClicked" />
+
+</LinearLayout>

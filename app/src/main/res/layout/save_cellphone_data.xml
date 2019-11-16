@@ -1,0 +1,40 @@
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/H"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/I"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="Enter your cellphone number below:" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText_enter_cellPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="+1 xxx xxx xxxx" />
+
+    <Button
+        android:id="@+id/save_cellPhoneNumber_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make account"
+        android:onClick="MakeAccountClicked" />
+
+
+</LinearLayout>

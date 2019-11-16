@@ -1,0 +1,95 @@
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/HomePageTitleV"
+            android:text="V"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"/>
+
+        <TextView
+            android:id="@+id/HomePageTitleA"
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"/>
+
+        <TextView
+            android:id="@+id/HomePageTitleU"
+            android:text="U"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"/>
+
+        <TextView
+            android:id="@+id/HomePageTitleL"
+            android:text="L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"/>
+
+
+        <TextView
+            android:id="@+id/HomePageTitleT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:text="T" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/sendText_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write encrypted text"
+            android:onClick="goToTextCreationInterface"/>
+
+        <Button
+            android:id="@+id/viewVaultTextMessages_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="my vault messages     "
+            android:onClick="viewVaultTextMessages"/>
+
+     <!--   <Button
+            android:id="@+id/viewContacts_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="viewContacts"
+            android:text=" View contacts              "/>
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/listview1" />  -->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:onClick="viewContacts"
+            android:text="View Contacts" />
+
+    </LinearLayout>
+
+</LinearLayout>
