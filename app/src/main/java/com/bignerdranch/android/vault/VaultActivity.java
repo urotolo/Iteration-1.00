@@ -51,6 +51,7 @@ public class VaultActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        System.out.println("doit");
         super.onCreate(savedInstanceState);
         //   setContentView(R.layout.account_creation_page);
         File file = getBaseContext().getFileStreamPath("mytextfile3.txt");  // Checks if account already exist
